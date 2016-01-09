@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="pref_enabled"
+        android:defaultValue="false"
+        android:title="@string/enabled"
+        />
+
+    <ListPreference
+        android:key="pref_frequency"
+        android:defaultValue="120"
+        android:title="@string/frequency"
+        android:dialogTitle="Minutes between alarms"
+        android:entries="@array/frequency"
+        android:entryValues="@array/frequency"
+        />
+
+    <ListPreference
+        android:key="pref_randomization"
+        android:defaultValue="30"
+        android:title="@string/random"
+        android:dialogTitle="Minutes to randomize by"
+        android:entries="@array/randomization"
+        android:entryValues="@array/randomization"
+        />
+
+    <RingtonePreference
+        android:key="pref_ringtone"
+        android:defaultValue="content://settings/system/notification_sound"
+        android:title="@string/alarmsound"
+        android:showDefault="true"
+        android:showSilent="true"/>
+
+    <CheckBoxPreference
+        android:key="pref_vibrate"
+        android:defaultValue="false"
+        android:title="Vibrate"/>
+
+    <chuah.is_a_teacher.com.randomremindme.TimePreference
+        android:key="pref_start_time"
+        android:defaultValue="3600000"
+        android:title="@string/starttime"
+        />
+
+    <chuah.is_a_teacher.com.randomremindme.TimePreference
+        android:key="pref_end_time"
+        android:defaultValue="7200000"
+        android:title="@string/endingat"
+        />
+
+    <EditTextPreference
+        android:key="pref_message"
+        android:defaultValue="Random Remind Me!"
+        android:title="@string/message"
+        />
+
+    <ListPreference
+        android:key="pref_ring_duration"
+        android:defaultValue="30"
+        android:title="@string/ringduration"
+        android:dialogTitle="Alarm duration in seconds"
+        android:entries="@array/randomization"
+        android:entryValues="@array/randomization"
+        />
+    <ListPreference
+        android:key="pref_snooze_time"
+        android:defaultValue="5"
+        android:title="@string/snoozetime"
+        android:dialogTitle="Minutes to snooze"
+        android:entries="@array/randomization"
+        android:entryValues="@array/randomization"
+        />
+    <CheckBoxPreference
+        android:key="pref_random_snooze"
+        android:defaultValue="false"
+        android:title="@string/randomsnooze"
+        android:summary="@string/randomsnoozehelp"
+        />
+
+</PreferenceScreen>

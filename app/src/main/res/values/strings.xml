@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RandomRemindMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="snooze">Snooze this alarm</string>
+    <string name="reset">Reset this alarm</string>
+    <string name="wake">Disable this alarm</string>
+    <string name="discard">Disable this alarm</string>
+    <string name="snoozetoast">Snooze</string>
+    <string name="resettoast">Alarm reset</string>
+    <string name="waketoast">Alarm disabled</string>
+    <string name="discardtoast">Alarm disabled</string>
+    <string name="title_activity_alarm_list">AlarmList</string>
+    <string name="enabled">Enable this alarm</string>
+    <string name="frequency">Ring this alarm every... </string>
+    <string name="random">Give or take... </string>
+    <string name="starttime">Starting at...</string>
+    <string name="endingat">Ending at...</string>
+    <string name="alarmsound">Using this alarm... </string>
+    <string name="message">With this message... </string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="ringduration">Ring duration</string>
+    <string name="snoozetime">Snooze time</string>
+    <string name="randomsnooze">Randomize snooze</string>
+    <string name="randomsnoozehelp">It\'s more annoying that way</string>
+    <string name="noalarm">No alarm set</string>
+    <string name="lessthan">In less than</string>
+    <string name="minutes">minutes</string>
+    <string name="morethantwo">In more than an hour</string>
+
+</resources>
